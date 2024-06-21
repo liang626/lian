@@ -1,0 +1,82 @@
+header {
+  background-color: #3a5209ba;
+  height: 80px;
+  width: 98vw;
+}
+
+.logo {
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  line-height: 50px;
+  background-image: url(logo.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  text-indent: 3.3em;
+}
+header a {
+  color: #fff;
+}
+header li {
+  display: inline;
+  margin: 2vw;
+  color: white;
+}
+header ul {
+  position: absolute;
+  right: 5vw;
+  top: 0px;
+  line-height: 60px;
+}
+.news {
+  color: rgb(218, 77, 42);
+  background-image: url(back.jpg);
+  background-size: cover;
+  height: 55vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.news h2 {
+  font-size: 4vw;
+  margin-bottom: 2vw;
+}
+.news a {
+  color: white;
+  border: rgb(218, 77, 42) 2px solid;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.event {
+  display: flex;
+}
+.event img {
+  width: 50vw;
+  height: 30vw;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6vw;
+  font-size: 1.5vw;
+}
+.info p {
+  margin-bottom: 1vw;
+  text-align: center;
+  line-height: 2em;
+}
